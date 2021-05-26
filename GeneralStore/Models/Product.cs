@@ -13,7 +13,7 @@ namespace GeneralStore.Models
         [Required]
         public string Name { get; set; }
         [Required]
-        public int UPC { get; set; }
+        public string UPC { get; set; }
         [Required]
         [Range(0,double.MaxValue, ErrorMessage = "Price Must Be Greater Than 0")]
         public double Price { get; set; }
