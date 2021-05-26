@@ -10,3 +10,14 @@ S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\IntroToAPI\obj\Debug\IntroToA
 S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\IntroToAPI\bin\Debug\System.Net.Http.Formatting.dll
 S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\IntroToAPI\bin\Debug\System.Net.Http.Formatting.xml
 S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\IntroToAPI\obj\Debug\IntroToAPI.csprojAssemblyReference.cache
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\IntroToAPI\bin\Debug\IntroToAPI.exe.config
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\IntroToAPI\bin\Debug\IntroToAPI.exe
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\IntroToAPI\bin\Debug\IntroToAPI.pdb
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\IntroToAPI\bin\Debug\Newtonsoft.Json.dll
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\IntroToAPI\bin\Debug\System.Net.Http.Formatting.dll
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\IntroToAPI\bin\Debug\Newtonsoft.Json.xml
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\IntroToAPI\bin\Debug\System.Net.Http.Formatting.xml
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\IntroToAPI\obj\Debug\IntroToAPI.csproj.CoreCompileInputs.cache
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\IntroToAPI\obj\Debug\IntroToAPI.csproj.CopyComplete
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\IntroToAPI\obj\Debug\IntroToAPI.exe
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\IntroToAPI\obj\Debug\IntroToAPI.pdb

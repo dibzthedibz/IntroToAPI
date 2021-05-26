@@ -27,7 +27,7 @@ namespace GeneralStore.Controllers
             return BadRequest(ModelState);
         }
 
-        [HttpGet]
+        //[HttpGet]
 
         public async Task<IHttpActionResult> GetAll()
         {
@@ -43,6 +43,42 @@ namespace GeneralStore.Controllers
                 return NotFound();
             }
             return Ok(product);
+        }
+
+        [HttpPut]
+
+        public async Task<IHttpActionResult> UpdateProduct([FromUri] int id, [FromBody] Product newProduct)
+        {
+            if (ModelState.IsValid)
+            {
+                Product oldProduct = await _context.Products.FindAsync(id);
+
+                if(oldProduct == null)
+                {
+                    oldProduct.Name = newProduct.Name;
+                    oldProduct.Price = newProduct.Price;
+                    oldProduct.Quantity = newProduct.Quantity;
+                    oldProduct.UPC = newProduct.UPC;
+                    await _context.SaveChangesAsync();
+                    return Ok();
+                }
+                return NotFound();
+            }
+            return BadRequest();
+        }
+
+        [HttpDelete]
+
+        public async Task<IHttpActionResult> DeleteProduct([FromUri] int id)
+        {
+            Product product = await _context.Products.FindAsync(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+            return Ok();
         }
     }
 }

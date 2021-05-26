@@ -21,12 +21,12 @@ namespace GeneralStore.Controllers
             return Ok(transactions);
         }
 
-        [HttpGet]
+        //[HttpGet]
 
-        public async Task<IHttpActionResult> GetById(int id)
-        {
+        //public async Task<IHttpActionResult> GetById(int id)
+        //{
 
-        }
+        //}
         [HttpPost]
 
         public async Task<IHttpActionResult> Post(Transaction transaction)
