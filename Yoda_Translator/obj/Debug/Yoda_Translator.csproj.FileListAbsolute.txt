@@ -1,0 +1,13 @@
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\bin\Debug\Yoda_Translator.exe.config
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\bin\Debug\Yoda_Translator.exe
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\bin\Debug\Yoda_Translator.pdb
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\bin\Debug\Newtonsoft.Json.dll
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\bin\Debug\System.Net.Http.Extensions.dll
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\bin\Debug\System.Net.Http.Formatting.dll
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\bin\Debug\System.Net.Http.Primitives.dll
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\bin\Debug\Newtonsoft.Json.xml
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\obj\Debug\Yoda_Translator.csproj.CoreCompileInputs.cache
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\obj\Debug\Yoda_Translator.csproj.CopyComplete
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\obj\Debug\Yoda_Translator.exe
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\obj\Debug\Yoda_Translator.pdb
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Yoda_Translator\obj\Debug\Yoda_Translator.csprojAssemblyReference.cache

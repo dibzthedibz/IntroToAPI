@@ -1,0 +1,7 @@
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\RickAndMortyAPI\bin\Debug\RickAndMortyAPI.exe.config
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\RickAndMortyAPI\bin\Debug\RickAndMortyAPI.exe
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\RickAndMortyAPI\bin\Debug\RickAndMortyAPI.pdb
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\RickAndMortyAPI\obj\Debug\RickAndMortyAPI.csproj.CoreCompileInputs.cache
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\RickAndMortyAPI\obj\Debug\RickAndMortyAPI.exe
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\RickAndMortyAPI\obj\Debug\RickAndMortyAPI.pdb
+S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\RickAndMortyAPI\obj\Debug\RickAndMortyAPI.csprojAssemblyReference.cache
