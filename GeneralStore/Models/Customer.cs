@@ -14,6 +14,5 @@ namespace GeneralStore.Models
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
-
     }
 }

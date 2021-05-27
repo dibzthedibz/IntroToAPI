@@ -10,17 +10,18 @@ using System.Web.Http;
 
 namespace GeneralStore.Controllers
 {
-    public class ProductController : ApiController
+
+    public class CustomerController : ApiController
     {
         private readonly ApplicationDbContext _context = new ApplicationDbContext();
 
         [HttpPost]
 
-        public async Task<IHttpActionResult> Post(Product product)
+        public async Task<IHttpActionResult> Post(Customer Customer)
         {
             if (ModelState.IsValid)
             {
-                _context.Products.Add(product);
+                _context.Customers.Add(Customer);
                 await _context.SaveChangesAsync();
                 return Ok();
             }
@@ -31,52 +32,49 @@ namespace GeneralStore.Controllers
 
         public async Task<IHttpActionResult> GetAll()
         {
-            List<Product> products = await _context.Products.ToListAsync();
-            return Ok(products);
+            List<Customer> customers = await _context.Customers.ToListAsync();
+            return Ok(customers);
         }
         [HttpGet]
-        public async Task<IHttpActionResult> GetById([FromUri]int id)
+        public async Task<IHttpActionResult> GetById([FromUri] int id)
         {
-            Product product = await _context.Products.FindAsync(id);
-            if(product == null)
+            Customer Customer = await _context.Customers.FindAsync(id);
+            if (Customer == null)
             {
                 return NotFound();
             }
-            return Ok(product);
+            return Ok(Customer);
         }
 
         [HttpPut]
 
-        public async Task<IHttpActionResult> UpdateProduct([FromUri] int id, [FromBody] Product newProduct)
+        public async Task<IHttpActionResult> UpdateProduct([FromUri] int id, [FromBody] Customer newCustomer)
         {
             if (ModelState.IsValid)
             {
-                Product oldProduct = await _context.Products.FindAsync(id);
+                Customer oldCustomer = await _context.Customers.FindAsync(id);
 
-                if(oldProduct == null)
+                if (oldCustomer == null)
                 {
-                    oldProduct.Name = newProduct.Name;
-                    oldProduct.Price = newProduct.Price;
-                    oldProduct.Quantity = newProduct.Quantity;
-                    oldProduct.UPC = newProduct.UPC;
+                    oldCustomer.FirstName = newCustomer.FirstName;
+                    oldCustomer.LastName = newCustomer.LastName;
                     await _context.SaveChangesAsync();
-                    return Ok();
+                    return Ok(oldCustomer);
                 }
                 return NotFound();
             }
-            return BadRequest();
+            return BadRequest(ModelState);
         }
-
         [HttpDelete]
 
         public async Task<IHttpActionResult> DeleteProduct([FromUri] int id)
         {
-            Product product = await _context.Products.FindAsync(id);
-            if (product == null)
+            Customer customer = await _context.Customers.FindAsync(id);
+            if (customer == null)
             {
                 return NotFound();
             }
-            _context.Products.Remove(product);
+            _context.Customers.Remove(customer);
             await _context.SaveChangesAsync();
             return Ok();
         }

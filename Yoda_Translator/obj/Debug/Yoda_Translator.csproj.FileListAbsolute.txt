@@ -19,7 +19,6 @@ S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Yoda_Translator\bin
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Yoda_Translator\bin\Debug\System.Net.Http.Formatting.dll
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Yoda_Translator\bin\Debug\System.Net.Http.Primitives.dll
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Yoda_Translator\bin\Debug\Newtonsoft.Json.xml
-S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Yoda_Translator\obj\Debug\Yoda_Translator.csproj.AssemblyReference.cache
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Yoda_Translator\obj\Debug\Yoda_Translator.csproj.CoreCompileInputs.cache
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Yoda_Translator\obj\Debug\Yoda_Translator.csproj.CopyComplete
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Yoda_Translator\obj\Debug\Yoda_Translator.exe

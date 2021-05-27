@@ -8,7 +8,6 @@ S:\Bootcamp Work Folder Boom\Blue Badge\IntroToAPI\Async\obj\Debug\Async.csprojA
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Async\bin\Debug\Async.exe.config
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Async\bin\Debug\Async.exe
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Async\bin\Debug\Async.pdb
-S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Async\obj\Debug\Async.csproj.AssemblyReference.cache
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Async\obj\Debug\Async.csproj.CoreCompileInputs.cache
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Async\obj\Debug\Async.exe
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\Async\obj\Debug\Async.pdb

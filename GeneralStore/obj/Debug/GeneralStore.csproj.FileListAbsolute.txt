@@ -1,8 +1,3 @@
-S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.csproj.AssemblyReference.cache
-S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.Migrations.InitialCreate.resources
-S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.Migrations.ChangedUPCToString.resources
-S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.csproj.GenerateResource.cache
-S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.csproj.CoreCompileInputs.cache
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\bin\GeneralStore.dll.config
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\bin\GeneralStore.dll
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\bin\GeneralStore.pdb
@@ -87,6 +82,10 @@ S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\bin\Sy
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\bin\System.Web.WebPages.Razor.xml
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\bin\Antlr3.Runtime.pdb
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.Migrations.InitialCreate.resources
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.Migrations.ChangedUPCToString.resources
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.csproj.GenerateResource.cache
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.csproj.CoreCompileInputs.cache
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.csproj.CopyComplete
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.dll
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.pdb
