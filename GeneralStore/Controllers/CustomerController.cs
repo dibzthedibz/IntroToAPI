@@ -54,7 +54,7 @@ namespace GeneralStore.Controllers
             {
                 Customer oldCustomer = await _context.Customers.FindAsync(id);
 
-                if (oldCustomer == null)
+                if (oldCustomer != null)
                 {
                     oldCustomer.FirstName = newCustomer.FirstName;
                     oldCustomer.LastName = newCustomer.LastName;

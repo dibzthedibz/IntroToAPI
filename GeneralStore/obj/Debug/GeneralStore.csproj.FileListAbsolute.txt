@@ -89,3 +89,4 @@ S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\De
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.csproj.CopyComplete
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.dll
 S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.pdb
+S:\Bootcamp Work Folder Boom\Blue Badge\ClassWork\IntroToAPI\GeneralStore\obj\Debug\GeneralStore.csproj.AssemblyReference.cache

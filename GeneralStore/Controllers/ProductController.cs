@@ -60,7 +60,7 @@ namespace GeneralStore.Controllers
                     oldProduct.Quantity = newProduct.Quantity;
                     oldProduct.UPC = newProduct.UPC;
                     await _context.SaveChangesAsync();
-                    return Ok();
+                    return Ok("You Did It!");
                 }
                 return NotFound();
             }
