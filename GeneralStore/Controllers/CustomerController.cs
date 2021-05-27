@@ -17,11 +17,11 @@ namespace GeneralStore.Controllers
 
         [HttpPost]
 
-        public async Task<IHttpActionResult> Post(Customer Customer)
+        public async Task<IHttpActionResult> Post(Customer customer)
         {
             if (ModelState.IsValid)
             {
-                _context.Customers.Add(Customer);
+                _context.Customers.Add(customer);
                 await _context.SaveChangesAsync();
                 return Ok();
             }
@@ -38,12 +38,13 @@ namespace GeneralStore.Controllers
         [HttpGet]
         public async Task<IHttpActionResult> GetById([FromUri] int id)
         {
-            Customer Customer = await _context.Customers.FindAsync(id);
-            if (Customer == null)
+            Customer customer = await _context.Customers.FindAsync(id);
+
+            if (customer == null)
             {
                 return NotFound();
             }
-            return Ok(Customer);
+            return Ok(customer);
         }
 
         [HttpPut]
