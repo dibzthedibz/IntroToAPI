@@ -76,7 +76,7 @@ namespace GeneralStore.Controllers
             }
             _context.Customers.Remove(customer);
             await _context.SaveChangesAsync();
-            return Ok();
+            return Ok("Good Job! You Win!");
         }
     }
 }

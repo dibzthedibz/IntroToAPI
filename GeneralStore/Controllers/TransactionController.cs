@@ -13,22 +13,7 @@ namespace GeneralStore.Controllers
     {
         private readonly ApplicationDbContext _context = new ApplicationDbContext();
 
-        [HttpGet]
-
-        public async Task<IHttpActionResult> GetAll()
-        {
-            List<Transaction> transactions = await _context.Transactions.ToListAsync();
-            return Ok(transactions);
-        }
-
-        //[HttpGet]
-
-        //public async Task<IHttpActionResult> GetById(int id)
-        //{
-
-        //}
         [HttpPost]
-
         public async Task<IHttpActionResult> Post(Transaction transaction)
         {
             if (ModelState.IsValid)
@@ -53,11 +38,33 @@ namespace GeneralStore.Controllers
                 product.Quantity -= transaction.PQuan;
 
                 transaction.DateOfTransaction = DateTime.Now;
+                _context.Transactions.Add(transaction);
                 await _context.SaveChangesAsync();
                 return Ok();
             }
             return BadRequest(ModelState);
         }
+
+        [HttpGet]
+
+        public async Task<IHttpActionResult> GetAll()
+        {
+            List<Transaction> transactions = await _context.Transactions.ToListAsync();
+            return Ok(transactions);
+        }
+
+        [HttpGet]
+
+        public async Task<IHttpActionResult> GetById([FromUri] int id) 
+        {
+            Transaction transaction = await _context.Transactions.FindAsync(id);
+            if(transaction == null)
+            {
+                return NotFound();
+            }
+            return Ok(transaction);
+        }
+
         [HttpPut]
         public async Task<IHttpActionResult> UpdateTransaction([FromUri] int id, [FromBody] Transaction newTransaction)
         {
@@ -84,7 +91,7 @@ namespace GeneralStore.Controllers
                     oldTransaction.ProductId = newTransaction.ProductId;
                     oldTransaction.PQuan = newTransaction.PQuan;
                     oldTransaction.CustomerId = newTransaction.CustomerId;
-                    if(newTransaction.DateOfTransaction != null)
+                    if (newTransaction.DateOfTransaction != null && newTransaction.DateOfTransaction != default)
                     {
                         oldTransaction.DateOfTransaction = newTransaction.DateOfTransaction;
                     }
@@ -94,6 +101,21 @@ namespace GeneralStore.Controllers
                 return NotFound();
             }
             return BadRequest(ModelState);
+        }
+
+        [HttpDelete]
+        
+        public async Task<IHttpActionResult> Delete([FromUri] int id)
+        {
+            var transaction = await _context.Transactions.FindAsync(id);
+            if (transaction == null)
+            {
+                return NotFound();
+            }
+
+            _context.Transactions.Remove(transaction);
+            await _context.SaveChangesAsync();
+            return Ok("You Did it again!");
         }
     }
 }

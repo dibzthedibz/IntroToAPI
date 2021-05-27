@@ -28,7 +28,7 @@ namespace GeneralStore.Controllers
                 }
                 return NotFound();
             }
-            return BadRequest();
+            return BadRequest(ModelState);
         }
     }
 }
